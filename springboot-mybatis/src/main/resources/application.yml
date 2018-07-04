@@ -1,0 +1,15 @@
+#数据源配置spring:
+
+  spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/TTTTT?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: root
+      password: 1084697634
+      driver-class-name: com.mysql.jdbc.Driver
+
+#Mybatis 配置
+
+  mybatis:
+    type-aliases-package: com.soul.spring.domain
+    mapper-locations: classpath:mapper/*.xml
+
