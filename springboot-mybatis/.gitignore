@@ -27,12 +27,12 @@
 
 ### 排除idea文件 ###
 
-.idea/compiler.xml
-.idea/dictionaried/
-.idea/encodings.xml
-.idea/inspectionProfiles/
-.idea/libraries/
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+/.idea/compiler.xml
+/.idea/dictionaried/
+/.idea/encodings.xml
+/.idea/inspectionProfiles/
+/.idea/libraries/
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/workspace.xml
 springboot.iml
