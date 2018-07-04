@@ -27,4 +27,6 @@
 
 ### 排除idea文件 ###
 /.idea
-springboot.iml
+.idea/
+/.idea/
+/springboot.iml
