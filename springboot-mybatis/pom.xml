@@ -59,18 +59,19 @@
 			</plugin>
 		</plugins>
 
-		<!-- 构建添加xml文件 -->
-		<resources>
-			<resource>
-				<directory>${basedir}/src/main/java</directory>
-				<includes>
-					<include>**/*.xml</include>
-				</includes>
-			</resource>
-			<resource>
-				<directory>${basedir}/src/main/resources</directory>
-			</resource>
-		</resources>
+		<!-- 构建添加xml文件 *2.当mapper的xml和mapper在同一个包结构下面时 根据maven默认的打包方式，java里面只会打包java文件，需要修改打包方式才能将
+		 xml文件打包进target里面，或者直接约定优于配置  将mapper的xml放在resources对应的包结构下面-->
+		<!--<resources>-->
+			<!--<resource>-->
+				<!--<directory>${basedir}/src/main/java</directory>-->
+				<!--<includes>-->
+					<!--<include>**/*.xml</include>-->
+				<!--</includes>-->
+			<!--</resource>-->
+			<!--<resource>-->
+				<!--<directory>${basedir}/src/main/resources</directory>-->
+			<!--</resource>-->
+		<!--</resources>-->
 
 		<!-- 或者采用排除.java文件的方式
             <resource>
